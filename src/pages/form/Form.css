@@ -1,0 +1,45 @@
+#mainForm {
+  font-family: Arial, sans-serif;
+  background-color: #f6f2f278;
+  padding: 20px;
+  margin: 200px auto 0; 
+  max-width: 900px;
+}
+
+p {
+  color: rgb(127, 129, 131);
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #5c5a5a;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #accfec;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+.button:hover {
+  background-color: #0c5f13;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+}

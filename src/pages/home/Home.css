@@ -1,0 +1,70 @@
+.image-carousel {
+    width: 150%;
+    max-width: 1100px;
+    margin: 20px auto;
+    height: auto; 
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos para a seção de boas-vindas */
+  .hero {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 80px 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('path/para/o/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .welcome-text {
+    margin-top: 20px;
+  }
+  
+  .welcome-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: grid;
+    padding: 10px 20px;
+    background-color: #accfec;
+    color: #000000;
+    /* border: none; */
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0c5f13;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+  }
+
+  .image-carousel {
+    .slick-slide {
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .image-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 100%;
+      height: auto;
+    }
+  
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }

@@ -1,0 +1,65 @@
+#sedes {
+  font-family: Arial, sans-serif;
+  background-color: #f6f2f278;
+  border-radius: 5px;
+  padding: 20px 20px;
+  margin: 200px auto 0;
+  max-width: 400px;
+  justify-content: center;
+}
+
+.cidades {
+  background-color: #accfec;
+  border-radius: 5px;
+  padding: 10px 3px;
+  font-size: 19px;
+  font-family: Arial, sans-serif;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
+}
+
+.cidades.mapa {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img.mapa {
+  width: 350px;
+  padding: 20px;
+  text-align: center;
+}
+
+ul.container {
+  width: 1300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li.container {
+  background-color: #f6f2f278;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin: 2em;
+  border: 2px;
+  border-radius: 5px;
+  width: 350px;
+}
+
+.grid-container4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.grid-item4 {
+  border: 2px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 2em;
+  background-color: #f6f2f278;
+  text-align: center;
+}

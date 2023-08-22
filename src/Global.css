@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 150%;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif; /* Aplicando a fonte Cinzel */
+  /* font-family: 'Permanent Marker', cursive; Aplicando a fonte Permanent Marker */
+  font-size: 25px;
+  background-color: #242424;
+  background-image: url("./assets/fundo.png");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+}
